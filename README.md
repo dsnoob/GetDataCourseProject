@@ -20,7 +20,7 @@ source("run_analysis.R")
 ```
   - After the script is executed successfully, a file with * **tidydata.txt** * is created with the final output.
 
-  The data file will be of size 180 x 68 columns. Apart from the index the column names consists of transformed labels. 
+  The data file will be of size 180 x 68 columns. Each row represents average for each measurement for an activity for each subject. Apart from the index the column names consists of transformed labels. The columns will have subject, activities (named as _standing, sitting, laying, walking, walkingDownstairs, walkingUpstairs_). 
 
 
 
