@@ -23,6 +23,5 @@ source("run_analysis.R")
   The data file will be of size 180 x 68 columns. Each row represents average for each measurement for an activity for each subject. Apart from the index the column names consists of transformed labels. The columns will have subject, activities (named as _standing, sitting, laying, walking, walkingDownstairs, walkingUpstairs_). 
 
 
-
 [data.table]:http://cran.r-project.org/web/packages/data.table/index.html
 [data]:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
