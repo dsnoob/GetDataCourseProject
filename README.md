@@ -18,9 +18,9 @@ The output of this project is that we have to produce CodeBook.md that describes
 ```sh
 source("run_analysis.R")
 ```
-  - After the script is executed successfully, a file with * **tidydata.txt** * is created with final output.
+  - After the script is executed successfully, a file with * **tidydata.txt** * is created with the final output.
 
-  
+  The data file will be of size 180 x 68 columns. Apart from the index the column names consists of transformed labels. 
 
 
 
