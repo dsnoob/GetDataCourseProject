@@ -1,5 +1,5 @@
 # Getting and Cleaning Data 
---------------------------
+
 ##CourseProject
 
 
@@ -11,10 +11,12 @@ The data that is obtained for the project can be downloaded from here:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-The output of this project is that we have to produce CodeBook.md that describes the variables, the data, and any transformations or work that we performed to clean up the data. To produce the final output of the project these are the steps that needs to executed in the given order. This script uses data.table
+The output of this project is that we have to produce CodeBook.md that describes the variables, the data, and any transformations or work that we performed to clean up the data. To produce the final output of the project these are the steps that needs to executed in the given order. This script uses [data.table] package (version 1.9)
 
 
   - Type some Markdown text in the left window
   - See the HTML in the right
   - Magic
 
+
+[data.table]:http://cran.r-project.org/web/packages/data.table/index.html
