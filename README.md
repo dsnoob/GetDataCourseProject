@@ -15,7 +15,11 @@ The output of this project is that we have to produce CodeBook.md that describes
   - First, unzip the [data] and place it in the folder called * **data** *.
   - Have the * **data** * folder and * **run_analysis.R** * placed in the same directory.
   - Execute the script as mentioned below
-        source("run_analysis.R")
+
+```sh
+source("run_analysis.R")
+```
+
 
 
 [data.table]:http://cran.r-project.org/web/packages/data.table/index.html
