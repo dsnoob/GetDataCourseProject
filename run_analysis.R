@@ -10,7 +10,7 @@
 ## The data is collected from wearable computing.
 
 # - 'features_info.txt': Shows information about the variables used on the feature vector.
-#- 'features.txt': List of all features.
+# - 'features.txt': List of all features.
 # - 'activity_labels.txt': Links the class labels with their activity name.
 # - 'train/X_train.txt': Training set.
 # - 'train/y_train.txt': Training labels.
@@ -50,12 +50,12 @@ mean_std_idx_data <- grep("mean\\(\\)|std\\(\\)", feature_data[,2])
 
 data_set <- data_set[,mean_std_idx_data]
 
-names(data_set) <- gsub("\\(\\)", "", feature_data[mean_std_idx_data,2]) 
+names(data_set) <- gsub("\\(\\)", "", feature_data[mean_std_idx_data,2])
 names(data_set) <- gsub("mean", "Mean", names(data_set)) # capitalize M
 names(data_set) <- gsub("std", "Std", names(data_set)) # capitalize S
 names(data_set) <- gsub("-", "", names(data_set)) # remove "-" in column names
 
-## Clean out the names 
+## Clean out the names
 activity_data[, 2] <- tolower(gsub("_", "", activity_data[, 2]))
 substr(activity_data[2, 2], 8, 8) <- toupper(substr(activity_data[2, 2], 8, 8))
 substr(activity_data[3, 2], 8, 8) <- toupper(substr(activity_data[3, 2], 8, 8))
@@ -67,4 +67,4 @@ total_filtered_data <- cbind(subject_data, label_data, data_set)
 
 filtered_data_table <- data.table(total_filtered_data)
 final_data_set <- filtered_data_table[,lapply(.SD,mean),by=list(subject, activity)]
-write.table(final_data_set,file="/Users/pvorugu/mooc/get-data/example/tidydata.txt")
+write.table(final_data_set,file="tidydata.txt")
