@@ -1,7 +1,10 @@
 CodeBook
 ====================
 
-CodeBook explaining the details of the project that defines the 
+Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
+
+
+The experiments have been carried out to measure six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using the sensor signals (accelerometer and gyroscope) acceleration and velocity at a constant rate of 50Hz is captured. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 
 - subject
