@@ -1,7 +1,5 @@
 # Getting and Cleaning Data 
-
 ##CourseProject
-
 The goal of this project is to clean make any transformations for the given data produced from *"wearable devices"*. The data is collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained from
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
