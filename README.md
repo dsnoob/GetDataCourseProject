@@ -15,11 +15,18 @@ The output of this project is that we have to produce CodeBook.md that describes
   - First, unzip the [data] and place it in the folder called **data**.
   - Have the  **data** folder and **run_analysis.R** placed in the same directory.
   - Execute the script as mentioned below
+  - After the script is executed successfully, a file with * **tidydata.txt** * is created with the final output.
 ```R
 source("run_analysis.R")
 ```
-  - After the script is executed successfully, a file with * **tidydata.txt** * is created with the final output.
-
+    1. Reads training and test data.
+    2. Merges the data
+    3. Get the index of *mean* and *std* variables from features.
+    4. Filter the data that is relevant to *mean* and *std* index from combined data set.
+    5. Transform the variable names that adheres to tidy data set rules.
+    6. Combine the data and apply mean and std functions.
+    7. Write the table data to tidydata.txt file.
+  
   The data file will be of size 180 x 68 columns. Each row represents average for each measurement for an activity for each subject. Apart from the index the column names consists of transformed labels. The columns will have subject, activities (named as _standing, sitting, laying, walking, walkingDownstairs, walkingUpstairs_). 
 
 
