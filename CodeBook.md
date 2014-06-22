@@ -7,11 +7,9 @@ The experiments have been carried out to measure six activities (WALKING, WALKIN
 
 _Following principles of Tidy Data set were used to transform the variables_
 
-- Lower Case Variables - camelCase was used for the variablesas lower case would make them unreadable. 
-- Descriptive Variables - the variable names are descriptive, so nothing special should be done.
-- No Duplicates & Special Characters were allowed.
-
-
+- *Lower Case Variables* - camelCase was used for the variablesas lower case would make them unreadable. 
+- *Descriptive Variables* - the variable names are descriptive, so nothing special should be done.
+- *No Duplicates* & *Special Characters* were allowed.
 
 |Tidy data|
 |----------
