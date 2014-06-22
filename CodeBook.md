@@ -12,8 +12,8 @@ __Following principles of Tidy Data set were used to transform the variables__
 - No Duplicates & Special Characters were allowed.
 
 
-|----------
-| Tidy data| 
+
+|Tidy data|
 |----------
 | subject |
 | activity |
